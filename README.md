@@ -27,9 +27,7 @@ The dataset contains two columns:
 
 Linear_Regression/
 │
-├── archive/
-│ └── score_updated.csv
-│
+│── score_updated.csv
 ├── linear_regression.py
 └── README.md
 
