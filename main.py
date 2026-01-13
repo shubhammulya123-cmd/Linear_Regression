@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-data = pd.read_csv('archive/score_updated.csv')
+data = pd.read_csv('score_updated.csv')
 
 
 
@@ -47,4 +47,5 @@ x_max = data["Hours"].max()
 
 plt.plot([x_min, x_max], [m*x_min + b, m*x_max + b], color="red")
 plt.show()
+
 
