@@ -6,7 +6,7 @@ data = pd.read_csv('archive/score_updated.csv')
 
 
 
-def loss_func(m,b,points):
+def loss_func(m,b,points):# ignore this (Just to understand loss function )
     total_error = 0
     for i in range(len(points)):
         x = points.iloc[i].Hours
@@ -47,3 +47,4 @@ x_max = data["Hours"].max()
 
 plt.plot([x_min, x_max], [m*x_min + b, m*x_max + b], color="red")
 plt.show()
+
